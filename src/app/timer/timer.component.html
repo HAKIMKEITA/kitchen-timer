@@ -1,9 +1,9 @@
 <p>timer works!</p>
 <div [ngClass]="{ running: timer.isRunning }" class="timer-container">
   <h3>{{ timer.name }}</h3>
-  <p>Temps restant : {{ timer.remaining | number }} sec</p>
+  <p>Remaining time : {{ timer.remaining | number }} sec</p>
   <button (click)="toggle()">
-    {{ timer.isRunning ? 'Pause' : 'Démarrer' }}
+    {{ timer.isRunning ? 'Break' : 'Start' }}
   </button>
 </div>
 

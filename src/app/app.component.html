@@ -4,12 +4,12 @@
   <input
     [(ngModel)]="newName"
     name="name"
-    placeholder="Nom du timer"
+    placeholder="Timer name"
     required
     #name="ngModel"
   />
   <div *ngIf="name.invalid && (name.dirty || name.touched)" class="error">
-    Le nom est requis.
+    The name is required.
   </div>
 
   <input
@@ -21,10 +21,10 @@
     #duration="ngModel"
   />
   <div *ngIf="duration.invalid && (duration.dirty || duration.touched)" class="error">
-    La durée doit être au moins 1 seconde.
+    The duration must be at least 1 seconde.
   </div>
 
-  <button type="submit" [disabled]="timerForm.invalid">Ajouter</button>
+  <button type="submit" [disabled]="timerForm.invalid">Add</button>
 </form>
 
 <div *ngFor="let timer of timers; let i = index">
