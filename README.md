@@ -1,3 +1,62 @@
+# Kitchen Timer
+A simple Angular kitchen timer application developed as part of an Angular learning project. It implements several fundamental Angular concepts.
+
+# Features
+Intuitive user interface with two main components:
+
+AppComponent: the root component of the application.
+
+TimerComponent: handles the display and logic of the timer.
+
+Start, stop, and reset a timer.
+
+Duration selection via form input.
+
+Visual notification when time is up.
+
+# Technologies Used
+Angular CLI
+
+TypeScript
+
+HTML5 / CSS3
+
+Node.js / npm
+
+# Angular Concepts Demonstrated
+    Interpolation ({{ variable }})
+
+    Property Binding ([property]="expression")
+
+    Event Binding ((event)="handler()")
+
+    Two-way Binding ([(ngModel)]="property")
+
+    Directives:
+
+        Structural: *ngIf, *ngFor
+
+        Attribute: ngClass, ngStyle
+
+    Pipes: date, uppercase, etc.
+
+    Parent-child communication:
+
+        @Input(), @Output(), EventEmitter
+
+    Lifecycle Hooks: ngOnInit(), ngOnDestroy(), etc.
+
+    @ViewChild() and @ContentChild() for accessing the DOM or child components
+
+    Content projection using <ng-content>
+
+    Service creation and dependency injection
+
+    Basic routing (if applicable)
+
+    Forms with basic validation
+
+
 # KitchenTimer
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
